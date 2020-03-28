@@ -37,8 +37,6 @@ public static WebDriver driver;
 		String browserlaunch = FileReaderManager.getInstance().getCrInstance().getBrowserlaunch();
 		driver=BaseClass2.BrowserLaunch(browserlaunch);
 		
-		
-		
 			
 	}
 	@AfterClass
