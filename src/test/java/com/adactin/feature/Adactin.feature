@@ -21,7 +21,6 @@ Scenario Outline:User checking the login function using valid username and valid
 	|222222|bbbbbbb|
 	|Niranjana|123456|
 	
-@RegressionTest	
 Scenario: User to check the bookingroom using valid details 
 	Given User to navigate the booking detailed page 
 	When User select an location option in the location field 
@@ -33,12 +32,12 @@ Scenario: User to check the bookingroom using valid details
 	And User select an adult  option "<4>" in the adult field 
 	And User select an children option "<3>" in the children field 
 	Then User click an search option in the search field 
-@SmokeTest	
+
 Scenario: User to check the select function using vaild selection field 
 	Given User to navigate the selection page 
 	When User click an selectbutton option in the selectbutton field 
 	Then User click an continue option in the continue field 
-@SanitaryTest	
+@RegressionTest	
 Scenario: User checking booked details and confirm the details 
 	Given User to navigate the confirmation page 
 	When User enter valid firstname "<Niranjana>" in the firstname field 

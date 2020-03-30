@@ -467,7 +467,7 @@
         "tags": [
           {
             "line": 24,
-            "name": "@RegressionTest"
+            "name": "@ReRun"
           }
         ]
       },
@@ -532,6 +532,12 @@
             "name": "User click an continue option in the continue field",
             "match": {},
             "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 36,
+            "name": "@RegressionTest"
           }
         ]
       },

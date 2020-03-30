@@ -455,7 +455,7 @@ formatter.scenario({
   "tags": [
     {
       "line": 24,
-      "name": "@RegressionTest"
+      "name": "@ReRun"
     }
   ]
 });
@@ -580,7 +580,13 @@ formatter.scenario({
   "description": "",
   "id": "testing-login-functionality-on-adactin-application;user-to-check-the-select-function-using-vaild-selection-field",
   "type": "scenario",
-  "keyword": "Scenario"
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 36,
+      "name": "@RegressionTest"
+    }
+  ]
 });
 formatter.step({
   "line": 38,

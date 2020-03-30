@@ -7,11 +7,11 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 298126,
+  "duration": 526532,
   "status": "passed"
 });
 formatter.before({
-  "duration": 759643,
+  "duration": 99907226,
   "status": "passed"
 });
 formatter.background({
@@ -35,186 +35,210 @@ formatter.match({
   "location": "StepDefinition.the_User_is_logged_in()"
 });
 formatter.result({
-  "duration": 262816523,
+  "duration": 7716047767,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.goes_to_landing_page()"
 });
 formatter.result({
-  "duration": 30368,
+  "duration": 41062,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 24,
-  "name": "User to check the bookingroom using valid details",
+  "line": 41,
+  "name": "User checking booked details and confirm the details",
   "description": "",
-  "id": "testing-login-functionality-on-adactin-application;user-to-check-the-bookingroom-using-valid-details",
+  "id": "testing-login-functionality-on-adactin-application;user-checking-booked-details-and-confirm-the-details",
   "type": "scenario",
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 23,
+      "line": 40,
       "name": "@RegressionTest"
     }
   ]
 });
 formatter.step({
-  "line": 25,
-  "name": "User to navigate the booking detailed page",
+  "line": 42,
+  "name": "User to navigate the confirmation page",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 26,
-  "name": "User select an location option in the location field",
+  "line": 43,
+  "name": "User enter valid firstname \"\u003cNiranjana\u003e\" in the firstname field",
   "keyword": "When "
 });
 formatter.step({
-  "line": 27,
-  "name": "User select an hotel option in the hotel field",
+  "line": 44,
+  "name": "User enter valid lastname \"\u003cR\u003e\" in the lastname field",
   "keyword": "And "
 });
 formatter.step({
-  "line": 28,
-  "name": "User select an hoteltype option in the hoteltype field",
+  "line": 45,
+  "name": "User enter vaild Billingaddress \"\u003c18/16,46th street,ashok nagar,chennai\u003e\"in the Billingaddress field",
   "keyword": "And "
 });
 formatter.step({
-  "line": 29,
-  "name": "User select an rooms \"\u003c2\u003e\" in the rooms field",
+  "line": 46,
+  "name": "User enter valid ccnum  \"\u003c1111222233334444\u003e\" in the ccnum field",
   "keyword": "And "
 });
 formatter.step({
-  "line": 30,
-  "name": "User select an fromdate option \"\u003c20/03/2020\u003e\" in the fromdate field",
+  "line": 47,
+  "name": "User enter valid creditcard  in the creditcard field",
   "keyword": "And "
 });
 formatter.step({
-  "line": 31,
-  "name": "User select an todate option \"\u003c25/03/2020\u003e\" in the todate field",
+  "line": 48,
+  "name": "User enter valid expmonth \"\u003c3\u003e\"  in the expmonth field",
   "keyword": "And "
 });
 formatter.step({
-  "line": 32,
-  "name": "User select an adult  option \"\u003c4\u003e\" in the adult field",
+  "line": 49,
+  "name": "User enter valid expyear \"\u003c2022\u003e\" in the expyear field",
   "keyword": "And "
 });
 formatter.step({
-  "line": 33,
-  "name": "User select an children option \"\u003c3\u003e\" in the children field",
+  "line": 50,
+  "name": "User enter vaild cvv \"\u003c1234\u003e\" in the cvv field",
   "keyword": "And "
 });
 formatter.step({
-  "line": 34,
-  "name": "User click an search option in the search field",
+  "line": 51,
+  "name": "User click an  booknow in the booknow field",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 52,
+  "name": "User confirm that it navigate to logoutpage",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "StepDefinition.user_to_navigate_the_booking_detailed_page()"
+  "location": "StepDefinition.user_to_navigate_the_confirmation_page()"
 });
 formatter.result({
-  "duration": 35501,
-  "status": "passed"
-});
-formatter.match({
-  "location": "StepDefinition.user_select_an_location_option_in_the_location_field()"
-});
-formatter.result({
-  "duration": 100938049,
-  "status": "passed"
-});
-formatter.match({
-  "location": "StepDefinition.user_select_an_hotel_option_in_the_hotel_field()"
-});
-formatter.result({
-  "duration": 33287866,
-  "status": "passed"
-});
-formatter.match({
-  "location": "StepDefinition.user_select_an_hoteltype_option_in_the_hoteltype_field()"
-});
-formatter.result({
-  "duration": 48671928,
+  "duration": 36357,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "\u003c2\u003e",
-      "offset": 22
+      "val": "\u003cNiranjana\u003e",
+      "offset": 28
     }
   ],
-  "location": "StepDefinition.user_select_an_rooms_in_the_rooms_field(String)"
+  "location": "StepDefinition.user_enter_valid_firstname_in_the_firstname_field(String)"
 });
 formatter.result({
-  "duration": 35912828,
+  "duration": 2929078988,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "\u003c20/03/2020\u003e",
-      "offset": 32
+      "val": "\u003cR\u003e",
+      "offset": 27
     }
   ],
-  "location": "StepDefinition.user_select_an_fromdate_option_in_the_fromdate_field(String)"
+  "location": "StepDefinition.user_enter_valid_lastname_in_the_lastname_field(String)"
 });
 formatter.result({
-  "duration": 40550245,
+  "duration": 47261284,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "\u003c25/03/2020\u003e",
-      "offset": 30
+      "val": "\u003c18/16,46th street,ashok nagar,chennai\u003e",
+      "offset": 33
     }
   ],
-  "location": "StepDefinition.user_select_an_todate_option_in_the_todate_field(String)"
+  "location": "StepDefinition.user_enter_vaild_Billingaddress_in_the_Billingaddress_field(String)"
 });
 formatter.result({
-  "duration": 26738080,
+  "duration": 44910068,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "\u003c4\u003e",
-      "offset": 30
+      "val": "\u003c1111222233334444\u003e",
+      "offset": 25
     }
   ],
-  "location": "StepDefinition.user_select_an_adult_option_in_the_adult_field(String)"
+  "location": "StepDefinition.user_enter_valid_ccnum_in_the_ccnum_field(String)"
 });
 formatter.result({
-  "duration": 25657641,
+  "duration": 40338520,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinition.user_enter_valid_creditcard_in_the_creditcard_field()"
+});
+formatter.result({
+  "duration": 947894277,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
       "val": "\u003c3\u003e",
-      "offset": 32
+      "offset": 27
     }
   ],
-  "location": "StepDefinition.user_select_an_children_option_in_the_children_field(String)"
+  "location": "StepDefinition.user_enter_valid_expmonth_in_the_expmonth_field(String)"
 });
 formatter.result({
-  "duration": 28495183,
+  "duration": 36138239,
   "status": "passed"
 });
 formatter.match({
-  "location": "StepDefinition.user_click_an_search_option_in_the_search_field()"
+  "arguments": [
+    {
+      "val": "\u003c2022\u003e",
+      "offset": 26
+    }
+  ],
+  "location": "StepDefinition.user_enter_valid_expyear_in_the_expyear_field(String)"
 });
 formatter.result({
-  "duration": 25542582,
+  "duration": 33017970,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "\u003c1234\u003e",
+      "offset": 22
+    }
+  ],
+  "location": "StepDefinition.user_enter_vaild_cvv_in_the_cvv_field(String)"
+});
+formatter.result({
+  "duration": 29014016,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinition.user_click_an_booknow_in_the_booknow_field()"
+});
+formatter.result({
+  "duration": 29068337,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinition.user_confirm_that_it_navigate_to_logoutpage()"
+});
+formatter.result({
+  "duration": 36906866,
   "status": "passed"
 });
 formatter.after({
-  "duration": 147566,
+  "duration": 88967,
   "status": "passed"
 });
 formatter.after({
-  "duration": 236533,
+  "duration": 171518,
   "status": "passed"
 });
 });

@@ -42,7 +42,7 @@ Adactin.feature:20:21:22:25:37:42ead>
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<li>
                 <a href='#!'>
-                    <span class='label suite-start-time blue darken-3'>Mar 28, 2020 11:36:42 AM</span>
+                    <span class='label suite-start-time blue darken-3'>Mar 29, 2020 12:53:23 PM</span>
 				</a>
 			</li>
 			<li>
@@ -82,6 +82,7 @@ Adactin.feature:20:21:22:25:37:42ead>
 				</a>
 				<ul id='category-toggle' class='dropdown-content'>
 					<li><a href='#'>@login</a></li>
+					<li><a href='#'>@ReRun</a></li>
 					<li><a href='#'>@RegressionTest</a></li>
 					<li class='divider'></li>
 					<li class='clear'><a href='#!' clear='true'>Clear Filters</a></li>
@@ -180,12 +181,12 @@ Adactin.feature:20:21:22:25:37:42ead>
 				<li class='test displayed active has-leaf skip' status='skip' bdd='true' test-id='1'>
 					<div class='test-heading'>
 						<span class='test-name'>Testing login functionality on adactin application</span>
-						<span class='test-time'>Mar 28, 2020 11:36:56 AM</span>
+						<span class='test-time'>Mar 29, 2020 12:53:23 PM</span>
 						<span class='test-status right skip'>skip</span>
 					</div>
 					<div class='test-content hide'>
 <div class='scenariooutline node' test-id='2' status='skip'>
-	<span class='duration right label'>0h 0m 1s+654ms</span>
+	<span class='duration right label'>0h 0m 0s+242ms</span>
 	<div class='desc'>
 		<b>ScenarioOutline</b>
 		<span class="desc-text">User checking the login function using valid username and valid password</span>
@@ -339,9 +340,9 @@ Adactin.feature:20:21:22:25:37:42ead>
 </div>
 <div class='scenario node' test-id='33' status='skip'>
 	<div class='category-list'>
-		<span class='category label white-text'>@RegressionTest</span>
+		<span class='category label white-text'>@ReRun</span>
 	</div>
-	<span class='duration right label'>0h 0m 0s+89ms</span>
+	<span class='duration right label'>0h 0m 0s+30ms</span>
 	<div class='desc'>
 		<b>Scenario</b>
 		<span class="desc-text">User to check the bookingroom using valid details</span>
@@ -446,7 +447,10 @@ Adactin.feature:20:21:22:25:37:42ead>
 	</ul>
 </div>
 <div class='scenario node' test-id='46' status='skip'>
-	<span class='duration right label'>0h 0m 0s+15ms</span>
+	<div class='category-list'>
+		<span class='category label white-text'>@RegressionTest</span>
+	</div>
+	<span class='duration right label'>0h 0m 0s+10ms</span>
 	<div class='desc'>
 		<b>Scenario</b>
 		<span class="desc-text">User to check the select function using vaild selection field</span>
@@ -495,7 +499,7 @@ Adactin.feature:20:21:22:25:37:42ead>
 	</ul>
 </div>
 <div class='scenario node' test-id='52' status='skip'>
-	<span class='duration right label'>0h 0m 0s+36ms</span>
+	<span class='duration right label'>0h 0m 0s+54ms</span>
 	<div class='desc'>
 		<b>Scenario</b>
 		<span class="desc-text">User checking booked details and confirm the details</span>
@@ -684,18 +688,52 @@ Adactin.feature:20:21:22:25:37:42ead>
 								</thead>
 								<tbody>
 									<tr>
-										<td>Mar 28, 2020 11:36:56 AM</td>
+										<td>Mar 29, 2020 12:53:23 PM</td>
 										<td class='linked' test-id='3'>Testing login functionality on adactin application.User checking the login function using valid username and valid password.User checking the login function using valid username and valid password</td>
 										<td><span class='test-status skip'>skip</span></td>
 									</tr>
 									<tr>
-										<td>Mar 28, 2020 11:36:57 AM</td>
+										<td>Mar 29, 2020 12:53:23 PM</td>
 										<td class='linked' test-id='13'>Testing login functionality on adactin application.User checking the login function using valid username and valid password.User checking the login function using valid username and valid password</td>
 										<td><span class='test-status skip'>skip</span></td>
 									</tr>
 									<tr>
-										<td>Mar 28, 2020 11:36:58 AM</td>
+										<td>Mar 29, 2020 12:53:23 PM</td>
 										<td class='linked' test-id='23'>Testing login functionality on adactin application.User checking the login function using valid username and valid password.User checking the login function using valid username and valid password</td>
+										<td><span class='test-status skip'>skip</span></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</li>
+				<li class='category displayed active'>
+					<div class='category-heading'>
+						<span class='category-name'>@ReRun</span>
+						<span class='category-status right'>
+							<span class='label others'>1</span>
+						</span>
+					</div>
+					<div class='category-content hide'>
+						<div class='category-status-counts'>
+							
+							
+							<span class='label yellow darken-2 white-text'>Others: 1</span>
+						</div>
+					
+						<div class='category-tests'>
+							<table class='bordered table-results'>
+								<thead>
+									<tr>
+										<th>Timestamp</th>
+										<th>TestName</th>
+										<th>Status</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Mar 29, 2020 12:53:24 PM</td>
+										<td class='linked' test-id='33'>Testing login functionality on adactin application.User to check the bookingroom using valid details</td>
 										<td><span class='test-status skip'>skip</span></td>
 									</tr>
 								</tbody>
@@ -728,8 +766,8 @@ Adactin.feature:20:21:22:25:37:42ead>
 								</thead>
 								<tbody>
 									<tr>
-										<td>Mar 28, 2020 11:36:58 AM</td>
-										<td class='linked' test-id='33'>Testing login functionality on adactin application.User to check the bookingroom using valid details</td>
+										<td>Mar 29, 2020 12:53:24 PM</td>
+										<td class='linked' test-id='46'>Testing login functionality on adactin application.User to check the select function using vaild selection field</td>
 										<td><span class='test-status skip'>skip</span></td>
 									</tr>
 								</tbody>
@@ -776,19 +814,19 @@ Adactin.feature:20:21:22:25:37:42ead>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Mar 28, 2020 11:36:42 AM</div>
+					<div class='panel-lead'>Mar 29, 2020 12:53:23 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Mar 28, 2020 11:36:58 AM</div>
+			 		<div class='panel-lead'>Mar 29, 2020 12:53:25 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>15,708ms</div>
+					<div class='panel-lead'>1,523ms</div>
 				</div>
 			</div>
 			<div class='col s6'>
@@ -808,6 +846,15 @@ Adactin.feature:20:21:22:25:37:42ead>
 							<td>0</td>
 							<td>0</td>
 							<td>3</td>
+							<td>
+									0%
+							</td>
+						</tr>
+						<tr>
+							<td>@ReRun</td>
+							<td>0</td>
+							<td>0</td>
+							<td>1</td>
 							<td>
 									0%
 							</td>
