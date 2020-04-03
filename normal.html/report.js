@@ -71,16 +71,16 @@ formatter.examples({
     },
     {
       "cells": [
-        "111111",
-        "aaaaaaa"
+        "11111",
+        "aaaaa"
       ],
       "line": 20,
       "id": "testing-login-functionality-on-adactin-application;user-checking-the-login-function-using-valid-username-and-valid-password;;2"
     },
     {
       "cells": [
-        "222222",
-        "bbbbbbb"
+        "22222",
+        "bbbbb"
       ],
       "line": 21,
       "id": "testing-login-functionality-on-adactin-application;user-checking-the-login-function-using-valid-username-and-valid-password;;3"
@@ -113,13 +113,19 @@ formatter.step({
   "name": "goes to landing page",
   "keyword": "And "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "StepDefinition.the_User_is_logged_in()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 4358058,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinition.goes_to_landing_page()"
+});
+formatter.result({
+  "duration": 43200,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 20,
@@ -152,7 +158,7 @@ formatter.step({
 });
 formatter.step({
   "line": 13,
-  "name": "User enter valid username \"111111\" in the username field",
+  "name": "User enter valid username \"11111\" in the username field",
   "matchedColumns": [
     0
   ],
@@ -160,7 +166,7 @@ formatter.step({
 });
 formatter.step({
   "line": 14,
-  "name": "User enter valid password \"aaaaaaa\" in the password field",
+  "name": "User enter valid password \"aaaaa\" in the password field",
   "matchedColumns": [
     1
   ],
@@ -176,33 +182,66 @@ formatter.step({
   "name": "User confirm that it navigates to the homepage.",
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "StepDefinition.user_launch_the_Application()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 12019342438,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "StepDefinition.user_navigate_to_error()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 6242547803,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "StepDefinition.user_to_click_on_proceed()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 6082827054,
+  "status": "passed"
 });
-formatter.match({});
+formatter.match({
+  "arguments": [
+    {
+      "val": "11111",
+      "offset": 27
+    }
+  ],
+  "location": "StepDefinition.user_enter_valid_username_in_the_username_field(String)"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 6136530098,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "aaaaa",
+      "offset": 27
+    }
+  ],
+  "location": "StepDefinition.user_enter_valid_password_in_the_password_field(String)"
+});
+formatter.result({
+  "duration": 6086085011,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinition.user_click_on_login_button()"
+});
+formatter.result({
+  "duration": 6116373706,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinition.user_confirm_that_it_navigates_to_the_homepage()"
+});
+formatter.result({
+  "duration": 40633,
+  "status": "passed"
 });
 formatter.background({
   "line": 3,
@@ -221,13 +260,19 @@ formatter.step({
   "name": "goes to landing page",
   "keyword": "And "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "StepDefinition.the_User_is_logged_in()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 55176,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinition.goes_to_landing_page()"
+});
+formatter.result({
+  "duration": 46194,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 21,
@@ -260,7 +305,7 @@ formatter.step({
 });
 formatter.step({
   "line": 13,
-  "name": "User enter valid username \"222222\" in the username field",
+  "name": "User enter valid username \"22222\" in the username field",
   "matchedColumns": [
     0
   ],
@@ -268,7 +313,7 @@ formatter.step({
 });
 formatter.step({
   "line": 14,
-  "name": "User enter valid password \"bbbbbbb\" in the password field",
+  "name": "User enter valid password \"bbbbb\" in the password field",
   "matchedColumns": [
     1
   ],
@@ -284,33 +329,66 @@ formatter.step({
   "name": "User confirm that it navigates to the homepage.",
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "StepDefinition.user_launch_the_Application()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 2916406041,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "StepDefinition.user_navigate_to_error()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 6117889552,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "StepDefinition.user_to_click_on_proceed()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 6164748619,
+  "status": "passed"
 });
-formatter.match({});
+formatter.match({
+  "arguments": [
+    {
+      "val": "22222",
+      "offset": 27
+    }
+  ],
+  "location": "StepDefinition.user_enter_valid_username_in_the_username_field(String)"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 6130256702,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "bbbbb",
+      "offset": 27
+    }
+  ],
+  "location": "StepDefinition.user_enter_valid_password_in_the_password_field(String)"
+});
+formatter.result({
+  "duration": 6101467599,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinition.user_click_on_login_button()"
+});
+formatter.result({
+  "duration": 6114289845,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinition.user_confirm_that_it_navigates_to_the_homepage()"
+});
+formatter.result({
+  "duration": 30796,
+  "status": "passed"
 });
 formatter.background({
   "line": 3,
@@ -329,13 +407,19 @@ formatter.step({
   "name": "goes to landing page",
   "keyword": "And "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "StepDefinition.the_User_is_logged_in()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 51755,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinition.goes_to_landing_page()"
+});
+formatter.result({
+  "duration": 24380,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 22,
@@ -392,33 +476,66 @@ formatter.step({
   "name": "User confirm that it navigates to the homepage.",
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "StepDefinition.user_launch_the_Application()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 2895171790,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "StepDefinition.user_navigate_to_error()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 6089697122,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "StepDefinition.user_to_click_on_proceed()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 6145278721,
+  "status": "passed"
 });
-formatter.match({});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Niranjana",
+      "offset": 27
+    }
+  ],
+  "location": "StepDefinition.user_enter_valid_username_in_the_username_field(String)"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 6112942522,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "123456",
+      "offset": 27
+    }
+  ],
+  "location": "StepDefinition.user_enter_valid_password_in_the_password_field(String)"
+});
+formatter.result({
+  "duration": 6147036230,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinition.user_click_on_login_button()"
+});
+formatter.result({
+  "duration": 6092666795,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinition.user_confirm_that_it_navigates_to_the_homepage()"
+});
+formatter.result({
+  "duration": 22670,
+  "status": "passed"
 });
 formatter.background({
   "line": 3,
@@ -437,13 +554,19 @@ formatter.step({
   "name": "goes to landing page",
   "keyword": "And "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "StepDefinition.the_User_is_logged_in()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 41062,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinition.goes_to_landing_page()"
+});
+formatter.result({
+  "duration": 22241,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 25,
@@ -455,7 +578,7 @@ formatter.scenario({
   "tags": [
     {
       "line": 24,
-      "name": "@ReRun"
+      "name": "@SmokeTest"
     }
   ]
 });
@@ -509,45 +632,109 @@ formatter.step({
   "name": "User click an search option in the search field",
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "StepDefinition.user_to_navigate_the_booking_detailed_page()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 28657,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "StepDefinition.user_select_an_location_option_in_the_location_field()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 6094957672,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "StepDefinition.user_select_an_hotel_option_in_the_hotel_field()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 6107616529,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "StepDefinition.user_select_an_hoteltype_option_in_the_hoteltype_field()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 4110563960,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "arguments": [
+    {
+      "val": "\u003c2\u003e",
+      "offset": 22
+    }
+  ],
+  "location": "StepDefinition.user_select_an_rooms_in_the_rooms_field(String)"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 6079014768,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "\u003c20/03/2020\u003e",
+      "offset": 32
+    }
+  ],
+  "location": "StepDefinition.user_select_an_fromdate_option_in_the_fromdate_field(String)"
+});
+formatter.result({
+  "duration": 6068950901,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "\u003c25/03/2020\u003e",
+      "offset": 30
+    }
+  ],
+  "location": "StepDefinition.user_select_an_todate_option_in_the_todate_field(String)"
+});
+formatter.result({
+  "duration": 6094211726,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "\u003c4\u003e",
+      "offset": 30
+    }
+  ],
+  "location": "StepDefinition.user_select_an_adult_option_in_the_adult_field(String)"
+});
+formatter.result({
+  "duration": 6111494254,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "\u003c3\u003e",
+      "offset": 32
+    }
+  ],
+  "location": "StepDefinition.user_select_an_children_option_in_the_children_field(String)"
+});
+formatter.result({
+  "duration": 6120703961,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinition.user_click_an_search_option_in_the_search_field()"
+});
+formatter.result({
+  "duration": 6156381952,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 678794,
+  "status": "passed"
 });
 formatter.background({
   "line": 3,
@@ -566,16 +753,22 @@ formatter.step({
   "name": "goes to landing page",
   "keyword": "And "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "StepDefinition.the_User_is_logged_in()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 44055,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinition.goes_to_landing_page()"
+});
+formatter.result({
+  "duration": 23525,
+  "status": "passed"
 });
 formatter.scenario({
-  "line": 37,
+  "line": 38,
   "name": "User to check the select function using vaild selection field",
   "description": "",
   "id": "testing-login-functionality-on-adactin-application;user-to-check-the-select-function-using-vaild-selection-field",
@@ -583,37 +776,50 @@ formatter.scenario({
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 36,
+      "line": 37,
       "name": "@RegressionTest"
     }
   ]
 });
 formatter.step({
-  "line": 38,
+  "line": 39,
   "name": "User to navigate the selection page",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 39,
+  "line": 40,
   "name": "User click an selectbutton option in the selectbutton field",
   "keyword": "When "
 });
 formatter.step({
-  "line": 40,
+  "line": 41,
   "name": "User click an continue option in the continue field",
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "StepDefinition.user_to_navigate_the_selection_page()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 31651,
+  "status": "passed"
 });
-formatter.match({});
+formatter.match({
+  "location": "StepDefinition.user_click_an_selectbutton_option_in_the_selectbutton_field()"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 6178209881,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinition.user_click_an_continue_option_in_the_continue_field()"
+});
+formatter.result({
+  "duration": 6162415397,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 831491,
+  "status": "passed"
 });
 formatter.background({
   "line": 3,
@@ -632,119 +838,161 @@ formatter.step({
   "name": "goes to landing page",
   "keyword": "And "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "StepDefinition.the_User_is_logged_in()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 53893,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinition.goes_to_landing_page()"
+});
+formatter.result({
+  "duration": 37640,
+  "status": "passed"
 });
 formatter.scenario({
-  "line": 42,
+  "line": 44,
   "name": "User checking booked details and confirm the details",
   "description": "",
   "id": "testing-login-functionality-on-adactin-application;user-checking-booked-details-and-confirm-the-details",
   "type": "scenario",
-  "keyword": "Scenario"
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 43,
+      "name": "@SanitaryTest"
+    }
+  ]
 });
 formatter.step({
-  "line": 43,
+  "line": 45,
   "name": "User to navigate the confirmation page",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 44,
+  "line": 46,
   "name": "User enter valid firstname \"\u003cNiranjana\u003e\" in the firstname field",
   "keyword": "When "
 });
 formatter.step({
-  "line": 45,
+  "line": 47,
   "name": "User enter valid lastname \"\u003cR\u003e\" in the lastname field",
   "keyword": "And "
 });
 formatter.step({
-  "line": 46,
+  "line": 48,
   "name": "User enter vaild Billingaddress \"\u003c18/16,46th street,ashok nagar,chennai\u003e\"in the Billingaddress field",
   "keyword": "And "
 });
 formatter.step({
-  "line": 47,
+  "line": 49,
   "name": "User enter valid ccnum  \"\u003c1111222233334444\u003e\" in the ccnum field",
   "keyword": "And "
 });
 formatter.step({
-  "line": 48,
+  "line": 50,
   "name": "User enter valid creditcard  in the creditcard field",
   "keyword": "And "
 });
 formatter.step({
-  "line": 49,
+  "line": 51,
   "name": "User enter valid expmonth \"\u003c3\u003e\"  in the expmonth field",
   "keyword": "And "
 });
 formatter.step({
-  "line": 50,
+  "line": 52,
   "name": "User enter valid expyear \"\u003c2022\u003e\" in the expyear field",
   "keyword": "And "
 });
 formatter.step({
-  "line": 51,
+  "line": 53,
   "name": "User enter vaild cvv \"\u003c1234\u003e\" in the cvv field",
   "keyword": "And "
 });
 formatter.step({
-  "line": 52,
+  "line": 54,
   "name": "User click an  booknow in the booknow field",
   "keyword": "And "
 });
 formatter.step({
-  "line": 53,
+  "line": 55,
   "name": "User confirm that it navigate to logoutpage",
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "StepDefinition.user_to_navigate_the_confirmation_page()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 41917,
+  "status": "passed"
 });
-formatter.match({});
+formatter.match({
+  "arguments": [
+    {
+      "val": "\u003cNiranjana\u003e",
+      "offset": 28
+    }
+  ],
+  "location": "StepDefinition.user_enter_valid_firstname_in_the_firstname_field(String)"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 6209076001,
+  "status": "passed"
 });
-formatter.match({});
+formatter.match({
+  "arguments": [
+    {
+      "val": "\u003cR\u003e",
+      "offset": 27
+    }
+  ],
+  "location": "StepDefinition.user_enter_valid_lastname_in_the_lastname_field(String)"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 6303984486,
+  "status": "passed"
 });
-formatter.match({});
+formatter.match({
+  "arguments": [
+    {
+      "val": "\u003c18/16,46th street,ashok nagar,chennai\u003e",
+      "offset": 33
+    }
+  ],
+  "location": "StepDefinition.user_enter_vaild_Billingaddress_in_the_Billingaddress_field(String)"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 6232644758,
+  "status": "passed"
 });
-formatter.match({});
+formatter.match({
+  "arguments": [
+    {
+      "val": "\u003c1111222233334444\u003e",
+      "offset": 25
+    }
+  ],
+  "location": "StepDefinition.user_enter_valid_ccnum_in_the_ccnum_field(String)"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 6119985389,
+  "status": "passed"
 });
-formatter.match({});
+formatter.match({
+  "location": "StepDefinition.user_enter_valid_creditcard_in_the_creditcard_field()"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 4274738149,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
+formatter.match({
+  "arguments": [
+    {
+      "val": "\u003c3\u003e",
+      "offset": 27
+    }
+  ],
+  "location": "StepDefinition.user_enter_valid_expmonth_in_the_expmonth_field(String)"
 });

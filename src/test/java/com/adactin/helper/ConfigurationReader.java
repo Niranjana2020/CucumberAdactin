@@ -12,7 +12,7 @@ public class ConfigurationReader {
 	
 	public ConfigurationReader() throws IOException {
 		File f=new File(
-				"C:\\Users\\welcome\\eclipse-workspace\\CucumberAdactin\\src\\test\\java\\com\\adactin\\properties\\Configuration.properties");
+				"C:\\Users\\welcome\\eclipse-workspace\\AdactinCucumber\\src\\test\\java\\com\\adactin\\properties\\Configuration.properties");
 		FileInputStream fis= new FileInputStream(f);
 		p=new Properties();
 		p.load(fis);

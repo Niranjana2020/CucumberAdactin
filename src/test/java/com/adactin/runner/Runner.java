@@ -16,15 +16,16 @@ import cucumber.api.junit.Cucumber;
 
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features="src\\test\\java\\com\\adactin\\feature",
+@CucumberOptions(features="src\\test\\java\\com\\adactin\\feature\\Adactin.feature",
                      glue="com\\adactin\\stepdefinition",
                      plugin = {"pretty","html:Report",
-                    		 "com.cucumber.listener.ExtentCucumberFormatter:Report\\extentReport.html"},
+                    		 "com.cucumber.listener.ExtentCucumberFormatter:Report/extentReport.html",
+                    		 "rerun:Report2/FailedScenario.txt"},
+                     		
                      monochrome = true,
                      dryRun = false,
-                     strict = true,
-                     tags= "@RegressionTest"
-		
+                     strict = true
+                    //tags= "@RegressionTest"
 		)
 public class Runner {
 	
@@ -33,17 +34,13 @@ public class Runner {
 	@BeforeClass
 	public static void setup() throws IOException {
 		String browserlaunch = FileReaderManager.getInstance().getCrInstance().getBrowserlaunch();
-		driver=BaseClass2.BrowserLaunch(browserlaunch);
-		
-		
-		
-			
+		driver=BaseClass2.BrowserLaunch(browserlaunch);		
 	}
-	@AfterClass
+	/*@AfterClass
 	public static void tearDown() {
 		driver.close();
 
-	}
+	}*/
 
 }
 

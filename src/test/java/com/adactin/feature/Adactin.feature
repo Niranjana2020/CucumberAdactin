@@ -1,26 +1,27 @@
-Feature: Testing login functionality on adactin application 
+Feature: Testing login functionality on adactin application
 
-Background: 
+Background:
 Given the User is logged in
 And goes to landing page
 
 
-@login 
-Scenario Outline:User checking the login function using valid username and valid password 
+
+Scenario Outline: User checking the login function using valid username and valid password 
 	Given User launch the Application 
 	When User navigate to error 
 	And User to click on proceed 
 	And User enter valid username "<username>" in the username field 
 	And User enter valid password "<password>" in the password field 
 	And  User click on login button 
-	Then User confirm that it navigates to the homepage. 
+	Then User confirm that it navigates to the homepage.
 	
 	Examples:
-	|username|password|
-	|111111|aaaaaaa|
-	|222222|bbbbbbb|
+	|username|password| 
+	|11111|aaaaa|
+	|22222|bbbbb|
 	|Niranjana|123456|
 	
+@SmokeTest	
 Scenario: User to check the bookingroom using valid details 
 	Given User to navigate the booking detailed page 
 	When User select an location option in the location field 
@@ -32,12 +33,14 @@ Scenario: User to check the bookingroom using valid details
 	And User select an adult  option "<4>" in the adult field 
 	And User select an children option "<3>" in the children field 
 	Then User click an search option in the search field 
+	
 
 Scenario: User to check the select function using vaild selection field 
 	Given User to navigate the selection page 
 	When User click an selectbutton option in the selectbutton field 
 	Then User click an continue option in the continue field 
-@RegressionTest	
+	
+@SanitaryTest
 Scenario: User checking booked details and confirm the details 
 	Given User to navigate the confirmation page 
 	When User enter valid firstname "<Niranjana>" in the firstname field 

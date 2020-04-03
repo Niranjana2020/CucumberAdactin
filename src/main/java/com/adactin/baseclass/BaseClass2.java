@@ -30,7 +30,7 @@ public class BaseClass2 {
 		try {
 			if (Browsername.equalsIgnoreCase("chrome")) {
 				System.setProperty("webdriver.chrome.driver", 
-						"C:\\eclipse-workspace\\SeleniumConcepts\\Drivers\\chromedriver.exe");
+						"C:\\Users\\welcome\\eclipse-workspace\\CucumberAdactin\\Driver\\chromedriver.exe");
 				driver=new ChromeDriver();
 			}else if(Browsername.equalsIgnoreCase("ie")) {
 				
