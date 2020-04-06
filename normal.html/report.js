@@ -27,14 +27,14 @@ formatter.match({
   "location": "StepDefinition.the_User_is_logged_in()"
 });
 formatter.result({
-  "duration": 4020175,
+  "duration": 4244284,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.goes_to_landing_page()"
 });
 formatter.result({
-  "duration": 35929,
+  "duration": 33362,
   "status": "passed"
 });
 formatter.scenario({
@@ -110,7 +110,7 @@ formatter.match({
   "location": "StepDefinition.user_to_navigate_the_confirmation_page()"
 });
 formatter.result({
-  "duration": 32507,
+  "duration": 47049,
   "status": "passed"
 });
 formatter.match({
@@ -123,7 +123,7 @@ formatter.match({
   "location": "StepDefinition.user_enter_valid_firstname_in_the_firstname_field(String)"
 });
 formatter.result({
-  "duration": 2208718891,
+  "duration": 174072956,
   "status": "passed"
 });
 formatter.match({
@@ -136,7 +136,7 @@ formatter.match({
   "location": "StepDefinition.user_enter_valid_lastname_in_the_lastname_field(String)"
 });
 formatter.result({
-  "duration": 98172850,
+  "duration": 90459750,
   "status": "passed"
 });
 formatter.match({
@@ -149,7 +149,7 @@ formatter.match({
   "location": "StepDefinition.user_enter_vaild_Billingaddress_in_the_Billingaddress_field(String)"
 });
 formatter.result({
-  "duration": 194222907,
+  "duration": 166329480,
   "status": "passed"
 });
 formatter.match({
@@ -162,14 +162,14 @@ formatter.match({
   "location": "StepDefinition.user_enter_valid_ccnum_in_the_ccnum_field(String)"
 });
 formatter.result({
-  "duration": 127813245,
+  "duration": 118286478,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_enter_valid_creditcard_in_the_creditcard_field()"
 });
 formatter.result({
-  "duration": 77469741,
+  "duration": 61514529,
   "status": "passed"
 });
 formatter.match({
@@ -182,7 +182,7 @@ formatter.match({
   "location": "StepDefinition.user_enter_valid_expmonth_in_the_expmonth_field(String)"
 });
 formatter.result({
-  "duration": 92319879,
+  "duration": 78602017,
   "status": "passed"
 });
 formatter.match({
@@ -195,7 +195,7 @@ formatter.match({
   "location": "StepDefinition.user_enter_valid_expyear_in_the_expyear_field(String)"
 });
 formatter.result({
-  "duration": 93539747,
+  "duration": 83686346,
   "status": "passed"
 });
 formatter.match({
@@ -208,21 +208,21 @@ formatter.match({
   "location": "StepDefinition.user_enter_vaild_cvv_in_the_cvv_field(String)"
 });
 formatter.result({
-  "duration": 106145192,
+  "duration": 87145761,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_click_an_booknow_in_the_booknow_field()"
 });
 formatter.result({
-  "duration": 78897910,
+  "duration": 5179357459,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_confirm_that_it_navigate_to_logoutpage()"
 });
 formatter.result({
-  "duration": 470068,
+  "duration": 466645,
   "error_message": "java.lang.AssertionError: expected [  ] but found []\r\n\tat org.testng.Assert.fail(Assert.java:94)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:513)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:135)\r\n\tat org.testng.Assert.assertEquals(Assert.java:116)\r\n\tat org.testng.Assert.assertEquals(Assert.java:190)\r\n\tat org.testng.Assert.assertEquals(Assert.java:200)\r\n\tat com.adactin.stepdefinition.StepDefinition.user_confirm_that_it_navigate_to_logoutpage(StepDefinition.java:289)\r\n\tat ✽.Then User confirm that it navigate to logoutpage(src/test/java/com/adactin/feature/Adactin.feature:55)\r\n",
   "status": "failed"
 });
